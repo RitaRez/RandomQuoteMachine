@@ -55,6 +55,10 @@ a { color: inherit; }
     background-color: #00AFFF;
     color:white;
     margin-bottom: 30px;
+    opacity: 1;
+}
+.buttons:hover{
+    opacity: 0.4;
 }
 .b1{
     width: 45px;
