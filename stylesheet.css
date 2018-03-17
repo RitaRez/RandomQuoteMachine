@@ -1,0 +1,73 @@
+body{
+    background-color: #00AFFF;
+}
+a { color: inherit; }
+#header{
+    height: 70px;
+    background-color: white;
+
+}
+#title{
+    font-size: 35px;
+    margin-left: 4%;
+    color: #00AFFF;
+    display: inline;
+    font-family: 'Hind Vadodara', sans-serif;
+
+}
+#headerBottom {
+    margin-top: 0px;
+    height: 7px;
+    background-color: #FF1939;
+}
+#canvas{
+    margin: 0px 10% 0px 10%;
+}
+#quoteBox{
+    margin-top: 9%;
+    background-color: white;
+    border-radius: 3px;
+    color: #00AFFF;
+}
+
+#quote{
+    padding: 40px 0px 10px 0px;
+    font-size: 35px;
+    text-align: center;
+}
+#quoteText{
+    display: inline;
+    font-family: 'Neuton', serif;
+
+}
+#author{
+    font-size: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: right;
+    font-style: italic;
+
+}
+#new{
+    height: 45px;
+}
+.buttons{
+    border-radius: 10px;
+    background-color: #00AFFF;
+    color:white;
+    margin-bottom: 30px;
+}
+.b1{
+    width: 45px;
+    height: 45px;
+}
+
+.right{
+    float: right;
+}
+.by{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}

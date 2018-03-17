@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Random Quote Generator</title>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
+        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Neuton" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+
+        <div id="header">
+            <hi id="title">My Random Quote Machine</h1>
+        </div>
+        <hr id="headerBottom">
+
+        <div id="canvas">
+            <div id="quoteBox" class="col-md-6 offset-md-3">
+
+                <div class="offset-md-1 col-md-10">
+                    <div id="quote">
+                        <i class="fa fa-quote-left icon"></i>
+                        <p id="quoteText"></p>
+                        <i class="fa fa-quote-right icon"></i>
+
+                    </div>
+                    <p id="author"></p>
+
+                    <button class="buttons b1" type="button" name="twitter">
+                        <i class=" fa fa-twitter icon"></i>
+                    </button>
+
+                    <button class="buttons b1" type="button" name="tumblr">
+                        <i class=" fa fa-tumblr icon"></i>
+                    </button>
+                    <button id="new" onclick="generate()" class="right buttons" type="button" name="new">New Quote</button>
+
+                </div>
+            </div>
+            <p class="by">by <a href="https://github.com/RitaRez">rita</a></p>
+
+        </div>
+
+    </body>
+</html>
