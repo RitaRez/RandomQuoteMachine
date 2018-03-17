@@ -23,11 +23,15 @@ function generate(){
         }
     });
 }
+
 function shareTwitter(){
             window.open("https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text="+ '"'
             + document.getElementById('quoteText').innerHTML  + '"' + " - "
             + document.getElementById('author').innerHTML);
 }
+
 function shareTumblr(){
-            window.open('https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption='+document.getElementById('quoteText').innerHTML +'&content=' + document.getElementById('author').innerHTML +'&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
+            window.open('https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption='
+            +document.getElementById('quoteText').innerHTML +'&content='
+            + document.getElementById('author').innerHTML +'&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
 }
