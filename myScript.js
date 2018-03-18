@@ -32,6 +32,6 @@ function shareTwitter(){
 
 function shareTumblr(){
             window.open('https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption='
-            +document.getElementById('quoteText').innerHTML +'&content='
-            + document.getElementById('author').innerHTML +'&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
+            +document.getElementById('author').innerHTML +'&content='
+            + document.getElementById('quoteText').innerHTML +'&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
 }
