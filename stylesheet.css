@@ -18,7 +18,7 @@ a { color: inherit; }
 #headerBottom {
     margin-top: 0px;
     height: 7px;
-    background-color: #FF1939;
+    background-color: gray;
 }
 #canvas{
     margin: 0px 10% 0px 10%;
